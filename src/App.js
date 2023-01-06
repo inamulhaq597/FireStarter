@@ -8,16 +8,15 @@ import Metaverse from "./pages/Metaverse";
 import Projects from "./pages/Projects";
 
 function App() {
-  
+  // comment added
   return (
     <>
       <Header></Header>
       <Routes>
         <Route element={<Home />} path="/"></Route>
-        <Route element={<Metaverse />} path="/metaverse-nft"></Route> 
+        <Route element={<Metaverse />} path="/metaverse-nft"></Route>
         <Route element={<Projects />} path="/projects"></Route>
-        <Route element={<LeaderboardMain/>} path="/leaderboard"></Route>
-      
+        <Route element={<LeaderboardMain />} path="/leaderboard"></Route>
       </Routes>
       <Footer></Footer>
     </>
